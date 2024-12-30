@@ -40,3 +40,10 @@ About One Day
 ## If you had more time, what enhancements will you make?
 
 If I had more time, I would enhance the Google Form Clone by adding advanced features like conditional logic, file uploads, and media integration to make forms more versatile. Custom themes and better mobile responsiveness would improve the user experience, while a detailed analytics dashboard and export options in formats like CSV or PDF would make data analysis more efficient. Collaboration tools for shared editing, real-time notifications for new responses, and improved security measures such as CAPTCHA and two-factor authentication would further elevate the platform.
+
+HOW TO RUN THIS
+Install all the dependencies of this project by typing pip install -r requirements.txt
+Migrate the database by typing python manage.py migrate on the command line
+Run the project locally by typing python manage.py runserver on the command line
+NB: to run it on your local network, type python manage.py runserver 0.0.0.0:8000
+You project will be accessible in your localhost or local network.
